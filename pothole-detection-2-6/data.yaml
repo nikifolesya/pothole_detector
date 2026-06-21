@@ -1,0 +1,27 @@
+names:
+- '0'
+- '1'
+- '2'
+- Manhole
+- Pothole
+- Pothole - v1 raw
+- Pothole_Segmentation_YOLOv8 - v1 2023-10-20 10-09pm
+- Unmarked Bump
+- crack
+- damage
+- medium-pothole
+- object
+- pothole
+- pothole_water
+- pothole_water_m
+- risk-pothole
+nc: 16
+roboflow:
+  license: CC BY 4.0
+  project: pothole-detection-2-zvaru
+  url: https://universe.roboflow.com/pothole-detection-2/pothole-detection-2-zvaru/dataset/6
+  version: 6
+  workspace: pothole-detection-2
+test: test/images
+train: train/images
+val: valid/images

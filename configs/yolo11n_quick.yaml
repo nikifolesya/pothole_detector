@@ -1,0 +1,12 @@
+model: yolo11n.pt
+data: pothole-detection-2-6/data.yaml
+epochs: 3
+imgsz: 416
+batch: 8
+optimizer: AdamW
+lr0: 0.001
+patience: 3
+project: outputs/runs
+name: yolo11n_quick
+device: cpu
+workers: 0

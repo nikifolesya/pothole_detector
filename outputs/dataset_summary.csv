@@ -1,0 +1,47 @@
+split,images,labels,empty_labels,class_id,class_name,objects
+train,5325,5325,13,0,0,3424
+train,5325,5325,13,1,1,852
+train,5325,5325,13,2,2,318
+train,5325,5325,13,3,Manhole,13
+train,5325,5325,13,4,Pothole,3853
+train,5325,5325,13,5,Pothole - v1 raw,595
+train,5325,5325,13,6,Pothole_Segmentation_YOLOv8 - v1 2023-10-20 10-09pm,1411
+train,5325,5325,13,7,Unmarked Bump,12
+train,5325,5325,13,8,crack,11
+train,5325,5325,13,9,damage,20
+train,5325,5325,13,10,medium-pothole,1449
+train,5325,5325,13,12,pothole,26
+train,5325,5325,13,13,pothole_water,39
+train,5325,5325,13,14,pothole_water_m,4
+train,5325,5325,13,15,risk-pothole,995
+valid,4943,4943,18,0,0,3159
+valid,4943,4943,18,1,1,1036
+valid,4943,4943,18,2,2,376
+valid,4943,4943,18,3,Manhole,17
+valid,4943,4943,18,4,Pothole,3956
+valid,4943,4943,18,5,Pothole - v1 raw,591
+valid,4943,4943,18,6,Pothole_Segmentation_YOLOv8 - v1 2023-10-20 10-09pm,379
+valid,4943,4943,18,7,Unmarked Bump,23
+valid,4943,4943,18,8,crack,9
+valid,4943,4943,18,9,damage,24
+valid,4943,4943,18,10,medium-pothole,1400
+valid,4943,4943,18,12,pothole,60
+valid,4943,4943,18,13,pothole_water,30
+valid,4943,4943,18,14,pothole_water_m,11
+valid,4943,4943,18,15,risk-pothole,971
+test,4070,4070,17,0,0,3259
+test,4070,4070,17,1,1,608
+test,4070,4070,17,2,2,258
+test,4070,4070,17,3,Manhole,16
+test,4070,4070,17,4,Pothole,3528
+test,4070,4070,17,5,Pothole - v1 raw,366
+test,4070,4070,17,6,Pothole_Segmentation_YOLOv8 - v1 2023-10-20 10-09pm,161
+test,4070,4070,17,7,Unmarked Bump,9
+test,4070,4070,17,8,crack,5
+test,4070,4070,17,9,damage,11
+test,4070,4070,17,10,medium-pothole,1154
+test,4070,4070,17,11,object,1
+test,4070,4070,17,12,pothole,10
+test,4070,4070,17,13,pothole_water,37
+test,4070,4070,17,14,pothole_water_m,5
+test,4070,4070,17,15,risk-pothole,901

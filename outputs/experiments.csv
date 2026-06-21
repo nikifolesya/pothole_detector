@@ -1,0 +1,6 @@
+run_id,model,imgsz,batch,epochs,optimizer,lr0,weights_source,status,mAP50,mAP50_95,precision,recall,latency_ms,weights_mb,comment
+E1,YOLOv8n,416,8,3,AdamW,0.001,COCO pretrained,done,0.12392,0.06245,0.33921,0.17314,51.0,5.9,CPU quick fine-tuning; selected as current best by mAP50-95 and latency
+E2,YOLO11n,416,8,3,AdamW,0.001,COCO pretrained,done,0.11990,0.06000,0.41832,0.17996,55.7,5.2,CPU quick fine-tuning; slightly higher precision but slower and lower mAP50-95
+E3,YOLO11n,960,8,40,AdamW,0.0008,COCO pretrained,planned,,,,,,,Higher resolution run for small potholes on GPU
+E4,RT-DETR-L,640,8,50,AdamW,0.0005,COCO pretrained,planned,,,,,,,Transformer detector alternative for GPU training
+E5,YOLOv8n ONNX,416,1,0,-,-,export from models/best.pt,done,,,,,11.0,11.6,ONNX Runtime smoke inference on one test image; metrics inherited from E1 weights

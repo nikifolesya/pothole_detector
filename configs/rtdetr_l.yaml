@@ -1,0 +1,10 @@
+model: rtdetr-l.pt
+data: pothole-detection-2-6/data.yaml
+epochs: 50
+imgsz: 640
+batch: 8
+optimizer: AdamW
+lr0: 0.0005
+patience: 10
+project: outputs/runs
+name: rtdetr_l_640

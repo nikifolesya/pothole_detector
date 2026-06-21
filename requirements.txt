@@ -1,0 +1,16 @@
+ultralytics
+opencv-python
+numpy
+pandas
+pyyaml
+matplotlib
+seaborn
+fastapi
+uvicorn[standard]
+python-multipart
+pytest
+httpx
+python-docx
+onnx>=1.12.0,<2.0.0
+onnxruntime
+onnxslim>=0.1.82
