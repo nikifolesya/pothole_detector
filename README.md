@@ -1,9 +1,4 @@
 # Pothole Detection Practice
-
-Практическая работа по теме: сравнение архитектур для детекции дефектов дорожного покрытия на изображениях и видео.
-
-Проект покрывает полный цикл: описание данных, план экспериментов, обучение детекторов, API для инференса, историю запусков, Docker-запуск, smoke-test и отчет.
-
 ## Данные
 
 Используется датасет Roboflow `pothole-detection-2-zvaru`, version 6, license CC BY 4.0.
@@ -41,13 +36,11 @@ pip install -r requirements.txt
 export PYTHONPATH=$PWD/src
 ```
 
-## Smoke-test
+## Test
 
 ```bash
 PYTHONPATH=$PWD/src ./venv/bin/python scripts/smoke_test.py
 ```
-
-В текущей версии `models/best.pt` уже содержит дообученный YOLOv8n quick. Если файл удалить, сервис переключится на OpenCV fallback только для проверки API и пайплайна.
 
 ## Обучение
 
@@ -120,13 +113,3 @@ curl -F "file=@pothole-detection-2-6/test/images/your_image.jpg" http://localhos
 ONNX artifact: `models/best.onnx` exported from `models/best.pt` with opset 20.
 
 План для GPU: YOLO11n 960 px и RT-DETR-L.
-
-## Итоговые материалы
-
-Основной отчет: `reports/practice_report.md`.
-
-Для расширенной финальной сдачи можно добавить:
-
-1. 5 удачных и 5 ошибочных примеров в `outputs/annotated/`.
-2. Скриншоты запуска API, `/predict` и `/stats`.
-3. Полные GPU-прогоны E3-E4.
